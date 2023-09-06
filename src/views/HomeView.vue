@@ -23,7 +23,7 @@ const cardList = ref(
     <div class="column">
       <div class="row top">
         <div class="test border-test"></div>
-<!--        <div class="test hover-animation content-center"> O cai dit me may</div>-->
+        <div class="test hover-animation content-center"> O cai dit me may</div>
       </div>
       <div class="row bottom">
         <card-item v-for="(item, index) in cardList" action="DEFAULT" style="width: 25vw;" :key="index">

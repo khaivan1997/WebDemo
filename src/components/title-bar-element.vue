@@ -63,9 +63,8 @@
 .pop-up {
   position: absolute;
   overflow: hidden;
-  transition: all ease-in .5s;
+  transition: max-height ease-in .5s;
   width:75%;
-  height: 100%;
   max-height: 0;
   left: 40px;
   top: 150%;
@@ -79,7 +78,7 @@
 .item:hover .pop-up{
   max-height: 500px;
   height: fit-content;
-  overflow: visible;
+  padding: 5px;
 }
 ul{
   list-style-type: none;
