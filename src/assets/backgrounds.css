@@ -1,0 +1,16 @@
+.background-1{
+    background-image: url(/public/images/card-bg1.png);
+}
+.background-2{
+    background-image: url(/public/images/card-bg2.png);
+}
+.background-3{
+    background-image: url(/public/images/card-bg3.png);
+}
+
+.m-background{
+    min-width: 15vw;
+    min-height: 10vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,56 @@
+:root{
+    --icon-size: 46px;
+}
+
+.icon {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.30) 100%);
+    -webkit-background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.30) 100%);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    mask-size: 50%;
+    -webkit-mask-size: 50%;
+    mask-position: center;
+    -webkit-mask-position: center;
+
+}
+.update-icon {
+    mask-image: url(icons/update.svg);
+    -webkit-mask-image: url(icons/update.svg);
+}
+.permutation-icon {
+    mask-image: url(icons/permutation.svg);
+    -webkit-mask-image: url(icons/permutation.svg);
+}
+.status-icon {
+    mask-image: url(icons/status.svg);
+    -webkit-mask-image: url(icons/status.svg);
+}
+.release-icon {
+    mask-image: url(icons/release.svg);
+    -webkit-mask-image: url(icons/release.svg);
+}
+.roles-icon {
+    mask-image: url(icons/roles.svg);
+    -webkit-mask-image: url(icons/roles.svg);
+}
+.polygon-icon {
+    mask-image: url(icons/polygon1.svg);
+    -webkit-mask-image: url(icons/polygon1.svg);
+}
+
+.clickable{
+    transition: all .5s ease;
+}
+.clickable:hover .icon-container{
+    background: radial-gradient(rgba(96, 46, 166, 1), rgba(201, 119, 214, 1));
+
+}
+
+.icon-container{
+    background: radial-gradient(137.13% 253.39% at 76.68% 66.67%, rgba(96, 46, 166, 0.20) 0%, rgba(201, 119, 214, 0.20) 100%);
+    backdrop-filter: blur(5px);
+    border-radius: var(--default-border-radius);
+
+}

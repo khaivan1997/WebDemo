@@ -1,0 +1,44 @@
+@import './base.css';
+@import "layout.css";
+@import "icons.css";
+@import "backgrounds.css";
+@import "animations.css";
+
+#app {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+
+  }
+}
+
+button{
+  border-radius: 10px;
+  background: var(--button-dark-card), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 48.05%, rgba(0, 0, 0, 0.20) 48.90%), linear-gradient(180deg, rgba(49, 58, 91, 0.00) 0%, #313A5B 78.91%, rgba(49, 58, 91, 0.22) 100%);
+  box-shadow: 0px 14px 20px 0px rgba(42, 51, 83, 0.80);
+  color: var(--color-text);
+}
+

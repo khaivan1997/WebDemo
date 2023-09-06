@@ -1,0 +1,33 @@
+:root{
+    --layout-dark-landing:transparent;
+    --list-layout-dark-update: rgba(17, 16, 24, .51);
+    --button-dark-card: transparent;
+    --default-border-radius: 20px;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.horizontal-separator {
+    width: 100%;
+    height: 1px;
+    background: #1D234D;
+}
